@@ -10,5 +10,5 @@ def index():
         order1=WorkOrder(Area=form.Area.data,Service=form.Service.data,ContactNumber=form.ContactNumber.data)
         db.session.add(order1)
         db.session.commit()
-        return 'Your request is registered and you will get a call in 15 minutes'
+        return 'Your request is registered and you will get a call in 30 minutes'
     return render_template('index.html',form=form)
