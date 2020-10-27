@@ -1,0 +1,38 @@
+.navbar-custom {
+    background-color:gray;
+    }
+nav a{
+    color:white
+}
+
+.navbar-brand{
+    background-color: white;
+}
+
+.row1sec1{
+    background-color: white;
+}
+
+.row1sec2{
+    background-color:gray;
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+}
+
+.aboutus{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(61, 61, 68);
+    font-style: italic;
+}
+
+#formheader{
+    text-align: center;
+    color: white;
+}
+
+.footer{
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
